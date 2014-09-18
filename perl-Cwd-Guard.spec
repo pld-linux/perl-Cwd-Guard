@@ -8,7 +8,7 @@
 Summary:	Cwd::Guard - Temporary changing working directory (chdir)
 Name:		perl-Cwd-Guard
 Version:	0.04
-Release:	1
+Release:	2
 # same as perl
 License:	GPL v1+ or Artistic
 Group:		Development/Languages/Perl
@@ -49,5 +49,6 @@ rm -rf $RPM_BUILD_ROOT
 %files
 %defattr(644,root,root,755)
 %doc Changes
+%dir %{perl_vendorlib}/Cwd
 %{perl_vendorlib}/Cwd/*.pm
 %{_mandir}/man3/*
