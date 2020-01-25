@@ -4,7 +4,6 @@
 #
 %define		pdir	Cwd
 %define		pnam	Guard
-%include	/usr/lib/rpm/macros.perl
 Summary:	Cwd::Guard - Temporary changing working directory (chdir)
 Name:		perl-Cwd-Guard
 Version:	0.04
